@@ -547,13 +547,12 @@ footer p {
     }
 
     .icongap {
-        position: relative;
-        gap: 50px;
-        text-align: right;
+        gap: 55px;
+        text-align: center;
     }
 
     .leftgap {
-        margin-left: 20px;
+        margin-left: 25px;
         text-align: right;
     }
 
