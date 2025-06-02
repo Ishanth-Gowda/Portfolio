@@ -366,13 +366,13 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 0.5rem;
 }
 
@@ -535,6 +535,26 @@ footer p {
 
     article {
         font-size: 1rem;
+        text-align: justify;
+    }
+
+    .article-container {
+        display: flex;
+        text-align: initial;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .icongap {
+        position: relative;
+        gap: 50px;
+        text-align: right;
+    }
+
+    .leftgap {
+        margin-left: 20px;
+        text-align: right;
     }
 
     footer nav {
