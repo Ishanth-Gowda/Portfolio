@@ -44,6 +44,8 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-right: -1rem;
 }
 
 a {
@@ -60,19 +62,34 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    margin-top: 4.5rem;
+    margin-left: -1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: left;
+    height: 13.3vh;
 }
 
 .logo:hover {
-    cursor: default;
-    text-decoration: underline;
-    transform: translateY(-2px);
+    transform: translateY(-6px);
+    transition: transform 0.3s ease;
 }
 
 /* HAMBURGER MENU */
 
 #hamburger-nav {
     display: none;
+}
+
+.logo.ham {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: left;
+    height: 9vh;
 }
 
 .hamburger-menu {
