@@ -195,11 +195,14 @@ section {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: beige;
-    /* Set a background color */
+    background: transparent;
+    /* Make it transparent */
     cursor: pointer;
     /* Add a mouse pointer on hover */
-    transform: rotate(180deg);
+}
+
+#myBtn:hover {
+    transform:translateY(-5px);
 }
 
 /* PROFILE SECTION */
